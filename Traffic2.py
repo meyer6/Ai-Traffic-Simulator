@@ -428,7 +428,7 @@ class Window(pyglet.window.Window):
                 
     def on_draw(self):
         # Runs the simulation
-        for _ in range(150):
+        for _ in range(15):
             self.simulation.update()
     
         # Draws everything
